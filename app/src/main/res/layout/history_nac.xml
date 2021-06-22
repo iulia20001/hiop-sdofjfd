@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="В Древней Греции считали, что один вид легкой атлетики не создает гармонично развитого человека, и уже в 708 г. до н.э. на XVIII Олимпиаде появились атлеты, которые соревновались в пентатлоне (пятиборье). Четыре вида были легкоатлетическими - прыжки в длину, бег на один стадий (греческий термин, означающий длину арены стадиона и равный 192,27 м), метание копья и диска. Пятый вид - борцовская схватка для двух сильнейших. Победителя этого греческого пятиборья несли на руках до родного города и вносили не в обычные ворота, а в пролом, специально сделанный в городской стене - «единственный для единственного». Первым победителем Олимпийских игр древности в пентатлоне был Ламписа из Лаконии. Прошло много веков, и идея разностороннего физического развития через многоборную подготовку стала воплощаться в жизнь. В 1884 г. в США были проведены соревнования в десятиборье, называвшиеся тогда «Соревнования разностороннего атлета». Они состояли из бега на 100 ярдов (91,44 м) и 1 милю (1609 м); барьерного бега на 120 ярдов (109,72 м), ходьбы на полмили, прыжков в длину, высоту и с шестом, толкания ядра, метания диска и веса массой 25 кг. Соревнования проводились в течение одного дня.  Первая попытка проведения многоборья на Олимпийских играх современности была предпринята в 1906 г. Организаторы включили в программу традиционное древнегреческое пятиборье с оценкой по занятым местам и борьбой в заключение состязаний. Это многоборье прошло без успеха и вызвало лишь насмешки зрителей  Впервые десятиборье было включено в программу Стокгольмской олимпиады 1912 г. Соревнования проводились три дня. На играх 1920 г. виды были распределены на два дня, и с тех пор такой порядок не меняется. Первым чемпионом Олимпийских игр 1912 г. в десятиборье стал Дж. Торп (США), показавший выдающиеся результаты для своего времени (100 м - 11,2; длина - 6,79 м; ядро - 12,89 м; высота - 1,87 м; 110 м с барьерами - 15,6; диск - 36,98 м; шест - 3,25 м; копье - 45,70 м; 1500 м - 4.40,1). Награждая Дж. Торпа, шведский король Густав V громко произнес: «Сэр, Вы величайший атлет мира!» Поселок, в котором родился и был похоронен Дж. Торп, был переименован в Джимторп-Таун. На площади города была установлена плита, на которой были высечены слова, произнесенные в 1912 г. Густавом V. После победы Дж. Торп по политическим мотивам был дисквалифицирован Любительским союзом США. Спустя многие десятилетия золотые медали атлета были возвращены его дочерям и восстановлены все его рекорды.  По состоянию на 2004 г. разыграно 63 олимпийские медали в десятиборье. Из них 23 были вручены спортсменам США (11 золотых, 6 серебряных и 6 бронзовых), вторыми идут спортсмены Германии - 11 медалей (2 золотые, 5 серебряных и 4 бронзовые), замыкают тройку спортсмены СССР - 8 медалей (1 золотая, 3 серебряные и 4 бронзовые). Среди спортсменов по две олимпийские медали имеют девять десятиборцев: Р. Мэтиас (США) в 1948 и 1952 гг. - золотые; Д. Томсон (Великобритания) в 1980 и 1984 гг. - золотые; Р. Джонсон (США) в 1956 г. - серебряная и 1960 г. - золотая; Н. Авилов (СССР) в 1972 г. - золотая и 1976 г. - бронзовая; Р. Себрле (Чехия) в 2000 г. - серебряная и в 2004 г. - золотая; А. Ярвинен (Финляндия) в 1928 и 1932 гг. - серебряные; X. Вольде (Германия) в 1964 г. - бронзовая и 1968 г. - серебряная; В. Кузнецов (СССР) в 1956 г. и 1960 г. - бронзовые; Ф. Симонс (США) в 1948 и 1952 гг. - бронзовые.  Для того, чтобы составить объективный рейтинг десятиборцев всех времен были пересчитаны результаты в видах десятиборья и их суммы с 1922 г. по 2004 г. при установлении мирового рекорда. С этой целью существующий мировой рекорд в отдельных видах легкой атлетики на тот период сравнивался с результатом аналогичного вида десятиборья в рекордном выступлении. Оценивая мировой рекорд в 1000 условных очков, соответственно получают условные очки в видах десятиборья, а затем их сумму."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="Легкоатлетические упражнения проводились с целью физической подготовки, а также для проведения состязаний ещё в глубокой древности. Но история лёгкой атлетики, как принято считать, началась с соревнований в беге на Олимпийских играх Древней Греции (776 год до нашей эры).  Современная лёгкая атлетика начала свой путь с отдельных попыток в разных странах проводить соревнования в беге, прыжках и метаниях. Зафиксированы результаты в прыжке с шестом в 1789 г. (1 м 83 см, Д. Бауш, Германия), в беге на одну милю в 1792 г. (5.52,0, Ф. Поуэлл, Великобритания) и 440 ярдов в 1830 г. (2.06,0, О. Вуд, Великобритания), в прыжке в высоту в 1827 г. (1 м 57,5 см, А. Уилсон, Великобритания), в метании молота в 1838 г. (19 м 71 см, Район, Ирландия), в толкании ядра в 1839 г. (8 м 61 см, Т. Каррадис, Канада) и др.[источник не указан 2693 дня] Считается, что начало истории современной лёгкой атлетики положили соревнования в беге на дистанцию около 2 км учащиеся колледжа в г. Регби (Великобритания) в 1837 г., после чего такие соревнования стали проводиться в других учебных заведениях Великобритании.  Позднее в программу соревнований стали включать бег на короткие дистанции, бег с препятствиями, метание тяжести, а в 1851 г. — прыжки в длину и высоту с разбега. В 1864 г. между университетами Оксфорда и Кембриджа были проведены первые соревнования, ставшие в дальнейшем ежегодными, положившие начало традиционным двусторонним матчам.  В 1865 году был основан Лондонский атлетический клуб, популяризировавший лёгкую атлетику, проводивший соревнования и наблюдавший за соблюдением статуса о любительстве. Высший орган легкоатлетического спорта — любительская атлетическая ассоциация, объединившая все легкоатлетические организации Британской империи. Организована в 1880 г.  Несколько позднее, чем в Великобритании, стала развиваться лёгкая атлетика в США (атлетический клуб в Нью-Йорке организовался в 1868 г., студенческий спортивный союз — в 1875 г.), где быстро достигла широкого распространения в университетах. Это обеспечило в последующие годы (до 1952 г.) ведущее положение американских легкоатлетов в мире. К 1880—1890 г. во многих странах мира были организованы любительские легкоатлетические ассоциации, объединившие отдельные клубы, лиги и получившие права высших органов по лёгкой атлетике.  Широкое развитие современной лёгкой атлетики связано с возрождением Олимпийских игр (1896 г.), в которых, отдавая дань древнегреческим Олимпиадам, ей отвели важнейшее место. И сегодня Олимпийские игры — мощный стимул для развития лёгкой атлетики во всем мире.  Начало распространению лёгкой атлетики в России положено в 1888 г., когда в Тярлево, близ Петербурга, был организован спортивный кружок. В том же году там было проведено первое в России соревнование по бегу. Впервые первенство России по лёгкой атлетике проходило в 1908 г. В нём приняли участие около 50 спортсменов.  В 1911 г. создаётся Всероссийский союз любителей лёгкой атлетики, объединивший около 20 спортивных лиг Петербурга, Москвы, Киева, Риги и других городов.  В 1912 г. российские легкоатлеты (47 человек) впервые участвовали в Олимпийских играх — в Стокгольме. Из-за слабой подготовленности спортсменов и плохой организации выступление российских легкоатлетов прошло неудачно — никто из них не занял призового места.  После Октябрьской революции 1917 года большую роль в развитии лёгкой атлетики сыграл Всевобуч. По его инициативе в ряде городов состоялись крупные соревнования, в программе которых главное место отводилось лёгкой атлетике: в Омске — I Сибирская олимпиада, в Екатеринбурге — I Приуральская олимпиада, в Ташкенте — Среднеазиатская, в Минеральных Водах — Северокавказская. В 1919 г. в Москве впервые было проведено первенство РСФСР по лёгкой атлетике. Первые международные состязания советских легкоатлетов состоялись в 1920 г. Они встретились со спортсменами рабочего спортивного союза Финляндии."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

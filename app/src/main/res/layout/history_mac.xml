@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="Мас-рестлинг – особая философия физического и духовного воспитания гармоничной личности, неотъемлемая часть богатой культуры народа саха.  Корни мас-рестлинга уходят далеко в прошлое. Немаловажным фактором его развития явились географическое расположение и климатические условия. Жизнь на Крайнем Севере, где очень продолжительная зима и температура доходит до 60 градусов мороза, а летом до 40 градусов жары - это постоянная борьба за выживание. Народ саха должен был поддерживать хорошую физическую форму для выживания в этом суровом климате. Для этого на протяжении многих поколений выработалась своеобразная система поддержки физического здоровья нации, частью которого является мас-рестлинг. Якуты испокон веков в массовом порядке занимаются оригинальными физическими упражнениями и постоянно устраивают различные состязания.  Из литературных источников известно, что каждый молодой якут должен был обладать определёнными физическими качествами для того, чтоб называться настоящим мужчиной - боотуром. Этот вид спорта помогал выработать такие двигательные и волевые качества как сила, ловкость, быстрота, выносливость, смелость и решительность. Нехитрый инвентарь позволял якутам заниматься этим видом единоборства практически круглый год. Он не требует специального помещения – им можно заниматься практически везде: в помещении, во дворе, на поляне.  Взрывообразное развитие мас-рестлинг получил, когда - в 80-х годах прошлого столетия были внесены изменения в правилах допускающие применение приемов, придающих большую динамику в схватках. Введение этих изменений большим трудом добились студенты-медики, большие энтузиасты развития мас тардыһыы: Петр Кривошапкин; Георгий Цыпандин; Петр Каратаев; Дмитрий Шарин; Николай Софронов и др., которых по праву можно называть отцами современного мас-рестлинга.  Все якутские спортивные знаменитости, завоевавшие в своих коронных видах почётные звания лучших в мире, прошли через мас-рестлинг, упорно занимаясь им с малых лет. Среди якутов практически нет человека, который хоть раз в жизни не принимал бы участия в соревнованиях по этому виду. Сегодня наш народ любит и восхищается своими богатырями в этом виде спорта, такими как: Виктор Колибабчук, Николай Колодко, Анатолий Баишев, Евгений Сивцев, Владимир Шарин, Иван Белолюбский,Федор Федоров,Андрей Маркин и др.  На своей исторической Родине мас-рестлинг пользуется огромной популярностью.  Как вид спорта мас-рестлинг (тогда мас-тардысыы или перетягивание палки) был описан ещё в 17 веке первыми исследователями Сибири и Крайнего Севера. В 1922 году после установления Советской власти в Якутии, в 1923 году был создан Якутский совет по физической культуре и спорту. Этим Советом в 1926 году были определены национальные виды спорта Якутии, описаны и составлены первые правила по этим видам. Впоследствии правила соревнований усовершенствовались неоднократно. В 1959 году были разработаны квалификационные нормативы.  В 1932 году перетягивание палки наряду с другими национальными видами спорта было включено в программу Всеякутской Спартакиады. А с 1968 года – в программу Спартакиады по национальным видам спорта «Игры Манчаары».  Первые официальные правила были разработаны в 1945 году, затем несколько раз пересмотрены и усовершенствованы, разработаны классификационные нормативы вплоть до звания мастера спорта Республики Саха (Якутия). В настоящее время соревнования проводятся по семи весовым категориям среди взрослых мужчин, пяти – у женщин, по шести среди юношей и благодаря новшествам стали очень динамичными и зрелищными.  В Республике Саха (Якутия) внесены изменения в программу физического воспитания общеобразовательных школ - в занятия по физкультуре включены национальные виды, в том числе и мас-рестлинг. Разработана специальная программа для детских спортивных школ, регулярно проводятся соревнования среди школьников. Во всех улусах (районах), в каждом населённом пункте действуют секции мас-рестлинга, плодотворно работают тренеры-энтузиасты.  Словом, традиции не забываются, заложен прочный фундамент, создана крепкая база и потенциал для дальнейшего развития огромен. Сравнительно новый вид единоборства в короткие сроки стал пользоваться большой популярностью в России и за её пределами. В 2000 году мас-рестлинг был включён в программу Международных спортивных игр «Дети Азии», которые имеют патронат Международного Олимпийского комитета."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

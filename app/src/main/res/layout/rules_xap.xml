@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Правила"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="Борцы обнажены до пояса, ниже пояса одеты в трусы или трико, как правило обуты в борцовки. Ранее, независимо от времени года, борцы боролись разутыми и одетыми только в шорты из ровдуги (мягкой кожи лося без шерсти). Схватки могут проводиться и на поляне, поросшей травой, но в настоящее время официальные схватки проводятся на борцовском ковре, диаметром 10 метров.  Любое касание борцом земли (ковра) какой-либо частью тела, кроме ступней, влечёт поражение. Исключение в современных правилах составляет касание земли (ковра) одной рукой, за что засчитывается штраф в 1 балл; касание двумя руками уже влечёт поражение. При проведении приёма атакующий борец должен остаться на ногах. Борьбы в партере в хапсагае не имеется.  В борьбе разрешены любые захваты за любую часть тела, исключая пальцы рук и ног. Захваты борцов, как правило неглубокие, в ходе схватки большое значение имеет активная работа ног. В арсенале борцов имеются подсечки, подножки, обвивы, зацепы, выхваты, отхваты, подсады и иные различные броски. Так, распространёнными приёмами являются сваливание соперника захватом головы и ноги (тюргэн) и передняя подсечка (халбарыйан тэбии). Многие приёмы соединены в многоступенчатые комбинации. В технике хапсагая следует выделить оригинальное исполнение проходов в ноги и бросков через грудь (халбарыйыы). Проходы в ноги выполняются исключительно с наклоном и нырками: исполнение прохода в полёте или в падении влечёт проигрыш в схватке, поскольку атакующий так или иначе коснётся поверхности. Тем же самым обусловлено выполнение бросков через грудь, которые в греко-римской и вольной борьбе (броски прогибом), дзюдо и самбо выполняются в падении, с большой амплитудой, а в хапсагае это невозможно. Поэтому выработана оригинальная техника таких бросков, позволяющая атакующему остаться на ногах.  Продолжительность схватки ограничена 10 минутами, для взрослых это обычно 5 минут + 2 минуты в случае, если победитель не выявлен в основное время, для старших юношей 5 минут, для младших юношей — 4 минуты.. Исход схватки — это победа одного из борцов или объявление обоих борцов проигравшими ввиду пассивного ведения борьбы.  До 1955 года в хапсагае не было разделения на весовые категории. С 1955 года взрослые борются в категориях до 53, 58, 64, 72, 80 килограммов и свыше 80 килограммов. У юношей и ветеранов разделение на категории другое."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

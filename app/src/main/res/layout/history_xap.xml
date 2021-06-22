@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="Хапсагай имеет древнюю историю, и установить, когда установились правила борьбы вряд ли представляется возможным. Уже в известном героическом эпосе олонхо дано описание победы богатыря «среднего мира» над представителями «тёмной силы» при помощи приёмов борьбы хапсагай.  По преданиям, ещё в древности у якутов существовала система воспитания и подготовки воинов, которые составляли отдельную касту. Одним из составляющей такой подготовки являлось умение вести борьбу без оружия. Ребёнка, отобранного в касту воинов (нареченного стать боотуром) обучали различным воинским умениям и развивали соответствующие физические навыки, в том числе, премудростям национальной борьбы. Секреты мастерства и способы подготовки к состязаниям каждая семья держала в тайне.  Первое упоминание о хапсагае на русском языке имеется в трудах этнографа Г. Ф. Миллера, который дал подробное описание Ысыаха, проведённого 31 мая 1737 года в 14 верстах от Якутска, и в ходе которого прошли состязания по борьбе хапсагай. Затем упоминания о соревнованиях по этой борьбе встречались в «Трудах Второй Камчатской экспедиции» И. Г. Гмелина, в работах академика А. Д. Мидлендорфа, у писателя-декабриста А. А. Бестужева-Марлинского.  В старину соревнования по хапсагаю устраивались во время праздников, главным из которых являлся Ысыах, на свадьбах (Уруу) знатных родов, во время осенней подлёдной ловли рыбы (Мунха), во время скачек лошадей. Борцы (даадары), по традиции покрытые бычьей кожей (с тем, чтобы соперники не видели друг друга) выходили из берестяных чумов на поляну, в круг сидящих зрителей. Арбитр, избираемый из почётных гостей, выводил борцов на середину круга, сбрасывал с них покрывало, и начиналась схватка.  Один из очевидцев, наблюдавший хапсагай во второй половине XVIII века писал:  «раздевшись донага, только оставив на себе одни штаны, и с разбега соединясь друг с другом и ударя одним другого по бокам, а потом ухватясь за свои штаны и ногами сплетясь, бросают о землю»  Ограничений по времени схватки не существовало: она могла длиться по нескольку часов, а иногда «когда спор бывал особенно принципиален — случалось, продолжался в течение целого дня», и даже продолжалась на следующий день.  Призом победителю соревнований традиционно служила мюсэ — варёная бедренная кость жеребца с мясом в верхней части. Впрочем, существовали и другие варианты наград, так И. А. Худяков, отбывавший ссылку в Верхоянске с 1867 по 1876 годы, описывал что побеждённому показывали оскорбительный кукиш, запачканный землёй, а победителю наливали чарку кумыса или водки, исполняли песню в его честь.  В конце XIX века и начале XX века наблюдалось активизация увлечения хапсагаем на всей территории нынешней Якутии, появились известные мастера хапсагая. В 1932 году состоялись первые официальные соревнования по хапсагаю, которые были приурочены к десятилетнему юбилею образования автономной республики и после этого соревнования проводились систематически, как на праздниках, так и в ходе Всеякутских Спартакиад. К участию в соревнованиях были допущены и женщины, так в 1944 году соревнование женщин было включено в программу летней республиканской спартакиады Якутской АССР.  Во времена СССР, соревнования по борьбе хапсагай среди мужчин регулярно проводились сельским ДСО «Урожай» в четырёх возрастных группах: 18-35 лет, 35-40 лет, 40-45 лет и свыше 45 лет.  В 1992 году была образована ассоциация «Сахаада-спорт», объединяющая восемь федераций по национальным видам спорта, включая хапсагай, а соревнования по этой борьбе проводятся под эгидой Федерации спортивной борьбы Республики Саха (Якутии) по борьбе хапсагай. 25 октября 2010 года хапсагай был признан Международной федерацией объединённых стилей борьбы (FILA), в результате чего был подписан договор между FILA и Ассоциацией национальных видов спорта и игр народов Якутии «Сахаада-спорт», в соответствии с которым борьба хапсагай вошла в FILA на правах официально признанного вида борьбы и может распространяться по всему миру. В 2011 году хапсагай вызвал большой интерес федерации борьбы Бенина, и письмом президента этой федерации, хапсагай был признан и была выражена готовность стать базовым центром культивирования борьбы в Африке. С 22 по 25 декабря 2011 года должен был пройти первый чемпионат Африки по хапсагаю.  После 2000 года ежегодно проводятся около двадцати соревнований республиканского уровня с мастерским нормативом."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

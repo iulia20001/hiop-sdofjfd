@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="До конца 40-х годов XX века гиревого спорта в современном понимании, как соревнования в силовой выносливости, не существовало. Хотя сами гири как спортивный снаряд были известны с конца XVII века.  24 октября 1948 года под патронажем специалистов из тяжёлой атлетики были проведены первые соревнования, в которых атлеты упражнялись с двухпудовыми гирями. Хотя официальных правил ещё не было, но подобные конкурсы стали проводиться на постоянной основе и тяжелоатлеты видели в них способ привлечения масс к своему спорту.  В 1962 году были разработаны первые правила соревнований по гиревому спорту. С 70-х годов на постоянной основе проводились встречи между спортсменами СССР, спорт также культивировался в Вооружённых Силах. В тот период правила гиревого спорта постоянно менялись в сторону упрощения для вовлечения всё более широких слоёв.  Если занятия культуризмом в СССР не поощрялись из-за того, что они отнимали ресурсы у тяжёлой атлетики, то занятия гиревым спортом всячески одобрялись. Единственным препятствием для официального признания этого вида спорта как самостоятельного было отсутствие постоянных правил — даже в течение одного сезона соревнования могли проводиться по разным правилам.  Варианты правил на примере рывка:  рывок выполнялся только одной рукой (любой) или каждой рукой; запрещалось/разрешалось касаться гирей любой части тела; смена рук в рывке осуществлялась через замах либо через кувырок гири; подсчёт очков осуществлялся либо простой суммой обеих рук, либо удвоением слабой руки; ограничение времени в положении виса и т.д. В 1985 году гиревой спорт получил официальное признание, а в 1987 году была создана Всесоюзная федерация гиревого спорта СССР. 29 октября 1992 года она была распущена и на её месте была создана Международная федерация гиревого спорта."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

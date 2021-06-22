@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="World Archery (FITA) была создана 4 сентября 1931 году во Львове, чемпионаты мира также начали проводиться с 1931 года. К середине 1950-х годов сложились стандартные упражнения М1 и М2, которые вошли в программу крупнейших соревнований.  Стрельба из лука — олимпийский вид спорта с 1900 года. В 1900, 1904, 1908 и 1920 годах в программу Игр входили различные нестандартные дисциплины (стрельба с 50, 60, 80 ярдов и другие). С 1924 года этот вид был исключён из программы, по причине отсутствия общих правил, и вернулся обратно с Игр 1972 года с дисциплиной М2 в личном первенстве .  В СССР стрельба из лука стала популярным видом спорта с 1960-х годов. В 1971 году впервые чемпионкой мира стала Эмма Гапченко, крупные центры развития этого вида спорта появились в Москве, Средней Азии, Закавказье и Забайкалье. Наибольшего успеха советские спортсмены добились на Олимпийских играх в Москве, где чемпионкой в личном первенстве у женщин стала Кетеван Лосаберидзе.  Начиная с середины 1980-х годов в стрельбе из лука вводятся новые правила, призванные добавить зрелищности и динамизма — дуэльные поединки по олимпийской системе. С 1988 года в программу Олимпийских игр добавились командные соревнования. В 1990-2000-е годы правила постоянно меняются. После Олимпиады 2008 года планируется дальнейшее изменение, что сделает стрельбу из лука ближе к биатлону. Подсчёт очков будет сделан по принципу «попал — не попал».  Сильнейшие лучники в 1950—1980 годы входили в команду США. В настоящее время лидерство в этом виде спорта принадлежит спортсменам Республики Корея, США, Китая, Италии."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

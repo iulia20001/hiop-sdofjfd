@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Правила"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="У каждого участника должен быть свой комплект «лучинок» — 30 штук. Они представляют собой палочки длиной 16 сантиметров, шириной 0,9 мм, толщиной 0,4 мм. Игра длится две минуты, её суть — показать ловкость рук и поймать за отведенное время как можно больше лучинок. По сигналу судьи игрок подбрасывает вверх все лучинки и ловит только одну. Игра достигает своего апогея, когда на столе останутся лежать только 5 лучинок. Игрок их все подбрасывает вверх и ловит. Он должен поймать, как минимум, 3 лучинки, при этом последнюю должен подхватить только при помощи мизинца и безымянного пальца. Если лучинка падает со стола, игрок ищет и поднимает её за счет зачетного времени. Эта игра имеет 6 вариантов. Из них наиболее популярна «суортумса» (вороний клюв). В этой игре лучинки подбрасываются и ловятся тыльной стороной ладони, затем отпускаются вниз. Игрок должен подхватить одну лучинку той же рукой, которой действовал. В других пяти вариантах начало такое же, но при отпускании вниз лучинку можно схватить с разных сторон, обговоренных заранее. Победителем считается тот, у кого отложено большее количество лучинок.  Хаамыска  Игра в «камешки» - игра «пятью камешками» - одна из самых распространенных в мире. Ареал этой игры, начиная с Греции, охватывает Россию, Среднюю Азию, Монголию, Корею. Каждый народ считает эту игру своей. По продолжительности ее бытования в нашем краю, популярностью в народе мы тоже считаем хаамыска своей игрой. Если в других странах играют речными камешками, то мы используем деревянные кубики. Их делают из брусочков дерева любой породы, 5 кубиков размером 1,5 на 1,5см. Но в отличие от других стран, только наша хаамыска развита как спортивный вид и популярна среди населения. Наш народ создал различные варианты игры в хаамыска. Играют не только 5, но и 7, 9 камешками.  Количество игроков не ограничено. Игроки сидят за столом. Ведущий берет кубики и подбрасывает вверх, а игроки должны ловить их. Кому попадет кубик с отметиной, то начинает игру. Первый игрок берет в правую ладонь 5 кубиков и подбрасывает «главный» кубик вверх, остальные 4 рассыпает на стол и ловит подкинутую. Каждый раз, подбрасывая вверх кубик и ловя его, игрок подбирает их со стола: по одному в 1-ый раз, по 2 – во второй раз, вначале 1, затем остальные 3 одновременно – в 3-ий раз, сразу все 4 кубика – в 4-ый раз.  5 прием: подкинув «главный» вверх, выстраивает остальные по одному на стол, затем при повторном подбрасывании подбирает всех.  6 прием: игроки указывают любой кубик, а играющий должен взять остальные сразу, не задевая его, а последним должен взять этот указанный кубик.  7 прием: подбирает все 4 кубика со стуком.  8 прием: левой рукой делает ворота, а правую, держа ладонями вверх, засовывает через запястье левой руки и бросает на стол 4 кубика. Игроки указывают любой кубик. Не задевая его, играющий каждый раз поочередно выталкивает кубики правой рукой через ворота правой рукой время полета «главного». Последним пропускает через ворота указанный кубик. Победителем считается тот, кто сделает это все за один подход. Если игрок ошибется или уронит кубик, то ход переходит к другому игроку. Тот начинает с того приема, где ошибся предыдущий игрок. Игра ведется только одной рукой. Смена рук не допускается."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

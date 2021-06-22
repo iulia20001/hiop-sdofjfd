@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text="Скачки имеют долгую и выдающуюся историю и практиковались в цивилизации по всему миру с древних времен. Археологические записи показывают, что скачки происходили в Древней Греции , Древнем Риме , Вавилоне , Сирии и Египте . Он также играет важную роль в мифах и легендах, таких как состязание между конями бога Одина и великана Хрунгнира в скандинавской мифологии .  Гонки на колесницах был одним из самых популярных древнегреческих , римских и византийских видов спорта. И скачки на колесницах, и скачки на лошадях были событиями в древних греческих Олимпийских играх к 648 г. до н.э. и играли роль в других Панэллинских играх . Это продолжалось, хотя гонки на колесницах часто опасны для возницы, так и для лошади, которые часто вызывают серьезные травмы и даже смерть. В Римской империи колесницы и конные скачки были отраслями промышленности. С середины пятнадцатого века до 1882 года весенний карнавал в Риме заканчивался скачками. От пятати до двадцати лошадей без всадников, используемых привезенных из Берберийского побережья в Северной Африке, были отпущены на прогулку по Виа дель Корсо , длинной прямой городской улице; их время составляло около 2 ⁄ 2 минут.  в более поздние времена чистокровные скачки стали и популярными среди аристократов и членов королевской семьи общества, принесло им титул «Спорт королей».  Исторически сложилось так, что всадники оттачивали свои навыки в играх и гонках. Конный спорт развлекал толпу и демонстрировал превосходное мастерство верховой езды, необходимое в бою. Скачки всех типов произошли от импровизированных соревнований между гонщиками или водителями. Различные формы соревнований, требующие стандартного набора навыков, как навыки лошади, так и от всадника. Популярность конного спорта на протяжении веков привела к сохранению навыков, которые в настоящее время исчезли бы после того, как лошади перестали быть известными в бою.  В Британии скачки получили широкое распространение в 18 веке. Его популярность продолжала расти на протяжении 18 века и далее. Король Карл II (правил с 1649 по 1685 год) был заядлым спортсменом, которому Ньюмаркет приобрел известность. К 1750 году Жокей-клуб был сформирован, чтобы контролировать скачки Ньюмаркета, устанавливать правила игры, предотвращать нечестность и добиваться равных условий. Эпсом Дерби началось в 1780 году. Пять классических гонок начались с Сент-Леже Стейкс в 1776 году. Система была завершена в 1814 году пятью ежегодными гонками. Ньюмаркет и Жокей-клуб устанавливают стандарты, но большая часть скачек проводилась ради небольших денежных призов и огромного местного престижа на полях землевладельцев и в растущих городах. Система ставок была необходима для финансирования и участвовали в ней все классы отрасли. Все выполнялось высшим обществом, и они приложили особые усилия, чтобы не допустить мошенничества и криминальных элементов в пари. Когда на кону стояли реальные деньги, система требовала опытные жокеи, тренеры, конюхи и специалисты по селекции, тем самым самым открывая новые престижные карьеры для мужчин из рабочего класса. Каждый молодой амбициозный конюх мог мечтать стать большим.  Скачки - один из немногих видов спорта, который продолжился во время кризиса COVID-19 2020 года, с Австралией и Гонконгом, двумя гоночными юрисдикциями. , хотя и без толпы. США, Великобритания и Франция были одними из наиболее известных гоночных организаций, которые отменили все соревнования."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

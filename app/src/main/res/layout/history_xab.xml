@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"Игры Манчаары"'
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="История"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="26dp"
+            android:text='Якутские национальные игры имеют многовековую историю. Они передавались из поколения в поколения, вбирая в себя лучшие национальные традиции. Игры оказывают большое влияние на воспитание ума, характера, воли, физически укрепляют ребенка, создают интерес к народному творчеству.  Профессор, доктор философских наук Ксенофонт Уткин писал: "Хабылык – якутская настольная игра, где одновременно развиваются в соревновании меткий глаз, острый ум, гибкие пальцы. Игра сопровождается большим эмоциональным подъемом, удовлетворением, разогревается все тело, человека охватывает всеобъемлющая радость, поднимается настроение как у детей, женщин, так и у зрелых мужчин. Эти неповторимые чувства положительных эмоций пронес наш хабылык через века и дымку времени.  Все звери, птицы таким образом (путем ловли)добывают пропитание. Человек учится у матушки-природы. Он тоже научился "ловить". Выработанные способности ловкости рук пригодились человеку в повседневной борьбе за свое выживание: как междоусобных войнах и на охоте, так и в процессе трудовой деятельности. Упоминаются в фольклоре случаи, когда обученные боотуры стрелы противников подхватывали на лету между пальцами. Вот где пригодилась игра в "лучинки". В ритуал бракосочетания входили также специальные демонстрации – соревнования ловкости рук по ловле костей с мясом, выбрасываемых через печную трубу камелька.  У каждого участника должен быть свой комплект "лучинок" — 30 штук. Они представляют собой палочки длиной 16 сантиметров, шириной 0,9 мм, толщиной 0,4 мм. Игра длится две минуты, её суть — показать ловкость рук и поймать за отведенное время как можно больше лучинок.  По сигналу судьи игрок подбрасывает вверх все лучинки и ловит только одну. Игра достигает своего апогея, когда на столе останутся лежать только 5 лучинок. Игрок их все подбрасывает вверх и ловит. Он должен поймать, как минимум, 3 лучинки, при этом последнюю должен подхватить только при помощи мизинца и безымянного пальца.  Если лучинка падает со стола, игрок ищет и поднимает её за счет зачетного времени.  Эта игра имеет 6 вариантов. Из них наиболее популярна "суортумса" (вороний клюв). В этой игре лучинки подбрасываются и ловятся тыльной стороной ладони, затем отпускаются вниз. Игрок должен подхватить одну лучинку той же рукой, которой действовал. В других пяти вариантах начало такое же, но при отпускании вниз лучинку можно схватить с разных сторон, обговоренных заранее. Победителем считается тот, у кого отложено большее количество лучинок.  Хабылык является самой древней настольной игрой якутов. Раньше играли простыми лучинками, которыми пользовались в каждой семье для растопки якутского очага камелек. Со временем правила этой игры усложнялись и, сейчас игра имеет более сложные и улучшенные варианты.'
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
